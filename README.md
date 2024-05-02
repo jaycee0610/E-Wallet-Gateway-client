@@ -65,8 +65,9 @@ Sample Request to send. ``/createCharges``
 ```
 
 Sample Response
+> [!CAUTION]
+> Please save the 'ID' or include it in your database for future reference regarding your transaction.
 
-Important: Please save the 'ID' or include it in your database for future reference regarding your transaction.
 ```json
 {
     "reference_id": "order-id-123",
