@@ -1,5 +1,5 @@
 
-![Logo](https://repository-images.githubusercontent.com/795007219/4011336c-307b-40f4-8620-7841902e9e09)
+![Logo](https://repository-images.githubusercontent.com/795007219/f6c83903-f960-4812-9d99-e1adf7181c6d)
 
 
 # E-Wallet Payment Gateway (Client)
