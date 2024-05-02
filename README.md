@@ -10,8 +10,8 @@ https://rootscratch.com/
 ## 🧬 Installation
 
 ```bash
-  git clone https://github.com/jaycee0610/E-Wallet-Gateway-client.git
-  cd E-Wallet-Gateway-client
+git clone https://github.com/jaycee0610/E-Wallet-Gateway-client.git
+cd E-Wallet-Gateway-client
 ```
     
 ## 🤖 Features
