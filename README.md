@@ -1,5 +1,5 @@
 
-![Logo](https://e0.pxfuel.com/wallpapers/369/796/desktop-wallpaper-what-is-a-payment-gateway-how-does-it-work.jpg)
+![Logo](https://repository-images.githubusercontent.com/795007219/4011336c-307b-40f4-8620-7841902e9e09)
 
 
 # E-Wallet Payment Gateway (Client)
