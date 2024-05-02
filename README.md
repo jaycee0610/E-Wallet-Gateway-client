@@ -7,6 +7,13 @@
 This code is intended solely for client use and only functions on the Rootscratch server. If you do not have access to a Rootscratch server, this code will not be useful. To inquire about server access, please contact me at jaycee@rootscratch.com. This code facilitates the creation and reading of e-wallet transactions. Additionally, this gateway is supported by Xendit PH.
 
 https://rootscratch.com/
+## 🧬 Installation
+
+```bash
+  git clone https://github.com/jaycee0610/E-Wallet-Gateway-client.git
+  cd E-Wallet-Gateway-client
+```
+    
 ## 🤖 Features
 
 - Create Transactions
