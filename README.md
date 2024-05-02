@@ -28,12 +28,20 @@ https://rootscratch.com/
 |-------------------|--------------------------------------|
 |1 PHP | based on eWallet holding limit
 
+## 🔔 Transaction Status
+| Status Type | Details                         |
+|-------------------|--------------------------------------|
+| SUCCEEDED             | Payment transaction for specified ``id`` is successfully |
+| PENDING             | Payment transaction for specified ``id`` is awaiting payment attempt by end user |
+| FAILED             | Payment transaction for specified ``id`` has failed, check failure codes for reasons |
+| VOIDED             | Payment transaction for specified ``id`` has been voided |
+| REFUNDED             | Payment transaction for specified ``id`` has been either partially or fully refunded |
 
 ## 📌 Create Transactions
 
 Sample Request to send. ``/createCharges``
 
-```javascript
+```json
 {
     "api_key": "api_key",
     "reference_id": "order-id-123",
@@ -52,7 +60,7 @@ Sample Request to send. ``/createCharges``
 Sample Response
 
 Important: Please save the 'ID' or include it in your database for future reference regarding your transaction.
-```javascript
+```json
 {
     "reference_id": "order-id-123",
     "status": "PENDING",
@@ -68,14 +76,14 @@ Important: Please save the 'ID' or include it in your database for future refere
 ## 📌 Get Transaction Details
 Sample Request to send. ``/getStatus``
 
-```javascript
+```json
 {
     "api_key": "your_api_key",
     "id": "363nn3978s0034bbv22909"
 }
 ```
 Sample Response
-```javascript
+```json
 {
     "id": "363nn3978s0034bbv22909",
     "transaction_type": "live",
@@ -90,7 +98,7 @@ Sample Response
 
 ## 📌 Webhook Payload to Receive
 ``/getResponse``
-```javascript
+```json
 {
     "id": "363nn3978s0034bbv22909",
     "transaction_type": "live",
